@@ -1,0 +1,30 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+}
+
+body {
+    background-color: var(--yellow);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-flow: column;
+    width: 330px;
+    padding: 1%;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.type {
+    text-align: center;
+    width: 100px;
+    background-color: var(--yellow);
+}
